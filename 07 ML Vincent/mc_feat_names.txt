@@ -1,0 +1,1 @@
+ttr	1st-pro	2nd-pro	3rd-pro	punct	prop_of_N	prop_of_modal	prop_of_propern	prop_of_prep	prop_of_cc	prop_of_exist	prop_of_adj	prop_of_adjer	prop_of_adjest	prop_of_pos	prop_of_advb	prop_of_advber	prop_of_advbest	prop_of_awl	freq_sp_words	freq_op_words	freq_na_words	freq_ly_words	freq_ip_words	freq_in_words	sp_hapaxes	op_hapaxes	na_hapaxes	ly_hapaxes	ip_hapaxes	in_hapaxes	genre
