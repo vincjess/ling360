@@ -44,3 +44,4 @@ final_model = SVC()
 final_model.fit(feats, labels)
 predictions = final_model.predict(feats)
 print('Accuracy:', accuracy_score(labels, predictions))
+
