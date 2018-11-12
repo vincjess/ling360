@@ -16,7 +16,8 @@ print(list(dataset))  # easy way to get feature (column) names
 
 array = dataset.values  # numpy array
 feats = array[:,0:len_names - 1]  # to understand comma, see url in next line:
-labels = array[:,-1]  # https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html#advanced-indexing
+labels = array[:,-1]  
+# https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html#advanced-indexing
 
 ETCmodel = ExtraTreesClassifier()
 ETCmodel.fit(feats, labels)
