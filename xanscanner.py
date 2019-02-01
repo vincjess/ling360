@@ -142,25 +142,3 @@ for fdepart, freturn in flight_dates:
                 print(xan_str, file=xanresults)
                 print(xan_str, file=masterresults)
 driver.close()
-
-
-
-
-# port = 465  # For SSL
-# smtp_server = "smtp.gmail.com"
-# sender_email = "dev.xanimyle@gmail.com"  # Enter your address
-# receiver_email = "vincenjes@gmail.com"  # Enter receiver address
-# password = 'dnalmaerd'
-#
-# message = MIMEMultipart("alternative")
-# message["Subject"] = "Latest Flight Results"
-# message["From"] = sender_email
-# message["To"] = receiver_email
-
-#         message = 'Lowest Price Today: ' + minimum
-#         message = str(message)
-#         print(message)
-# context = ssl.create_default_context()
-# with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-#     server.login(sender_email, password)
-#     server.sendmail(sender_email, receiver_email, message)
